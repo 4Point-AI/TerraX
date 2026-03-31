@@ -95,15 +95,15 @@ export default function LandingPage() {
               </div>
             </div>
 
-            <div className="relative z-10 flex h-full min-h-[28rem] flex-col justify-end gap-4 lg:min-h-[40rem]">
-              <div className="relative aspect-[4/3] overflow-hidden border border-dashed border-border/35 bg-transparent shadow-[0_24px_60px_rgba(0,0,0,0.22)] lg:absolute lg:left-[-15%] lg:right-[4%] lg:top-[15%] lg:scale-[1.08]">
+            <div className="relative z-10 flex h-full min-h-[28rem] flex-col justify-end gap-[clamp(2rem,8vw,9.5rem)] lg:min-h-[40rem]">
+              <div className="relative mt-3 ml-auto w-full max-w-[42rem] self-end overflow-hidden border border-dashed border-border/35 bg-transparent shadow-[0_24px_60px_rgba(0,0,0,0.22)] aspect-[4/3] lg:mt-4">
                 <div className="relative h-full w-full overflow-hidden bg-transparent">
                   <Image
                     src={homepageImage}
                     alt="Terra-X homepage preview"
                     fill
                     className="object-cover object-center"
-                    sizes="(min-width: 1280px) 52vw, (min-width: 1024px) 48vw, 100vw"
+                    sizes="(min-width: 1280px) 42rem, (min-width: 1024px) 42vw, 100vw"
                     quality={100}
                     priority
                   />
@@ -111,7 +111,7 @@ export default function LandingPage() {
                 </div>
               </div>
 
-              <div className="panel-surface p-6 sm:p-7 lg:mt-auto">
+              <div className="panel-surface p-6 sm:p-7">
                 <div className="space-y-5">
                   <div className="flex items-center justify-between border-b border-dashed border-border/70 pb-4">
                     <div>
